@@ -8,6 +8,9 @@
   max-height: 19rem;
   border: 1px solid #fff;
   all: unset;
+  display: block;
+  width: 150px;
+  border: 1px solid white;
 }
 .album-cover {
   object-fit: cover;
