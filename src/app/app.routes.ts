@@ -6,7 +6,7 @@ export const routes: Routes = [
   {
     path: 'artists',
     component: Home,
-    children: [{ path: 'new', component: Albums }],
+    children: [{ path: ':id', component: Albums }],
   },
   {
     path: '**',
