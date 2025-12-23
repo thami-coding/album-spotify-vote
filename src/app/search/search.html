@@ -1,0 +1,17 @@
+<div class="search-container">
+  <button class="search-button">
+    <!-- A simple magnifying glass icon using an HTML entity -->
+    <lucide-icon [img]="SearchIcon" class="my-icon small"></lucide-icon>
+  </button>
+  <!-- 
+   [(ngModel)] creates a two-way binding between the input field 
+   and the 'searchTerm' property in our .ts file.
+
+   (keyup.enter) allows the user to press Enter to trigger the search.
+ -->
+  <input type="text" class="search-input" placeholder="Search Your Favourite Artist" />
+
+  <!-- 
+   (click) calls our onSearch() method when the button is clicked. 
+ -->
+</div>

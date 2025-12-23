@@ -1,0 +1,26 @@
+.side-nav {
+border: 1px solid #b0b0b070;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  gap: 0.5rem;
+  padding: 0 0.5rem;
+  padding-bottom: 1.4rem;
+}
+
+.btn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #cfcfcf;
+}
+
+.btn:hover {
+  background-color: #2e2f2f;
+}

@@ -1,0 +1,29 @@
+.left-side {
+  display: flex;
+  border: 1px solid #b0b0b070;
+  max-width: 450px;
+  min-width: 450px;
+}
+
+.container {
+  padding-top: 1.4rem;
+}
+
+.header {
+  padding: 0 1.4rem;
+  max-width: 350px;
+  min-width: 382px;
+}
+
+.main-container {
+  display: flex;
+
+}
+
+.right-side {
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
