@@ -21,9 +21,14 @@
 }
 
 .right-side {
-  border: 1px solid green;
+    border: 1px solid #b0b0b070;
   width: 100%;
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
+}
+
+.title{
+  margin-bottom: 2rem;
 }
