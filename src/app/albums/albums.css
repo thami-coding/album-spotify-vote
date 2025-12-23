@@ -1,0 +1,23 @@
+.album-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid red;
+  max-width: 38rem;
+}
+.album {
+  max-height: 19rem;
+  border: 1px solid #fff;
+  all: unset;
+}
+.album-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.album:hover {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.05);
+  border: 4px solid #11d81e;
+}
